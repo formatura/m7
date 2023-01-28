@@ -1,0 +1,149 @@
+#corpotodo{
+	background-color: #0C5652;
+}
+#navbar {
+    height: 150px;
+	background-color: rgba(12,86,82,0.6);
+}
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+#navbar-container h1{
+	font-size:0px;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(2) {
+    border-top: 1px solid #0C5652;
+    border-bottom: 1px solid #0C5652;
+}
+/*HEADER*/
+#brasao {
+	max-width:120px;
+	max-height:120px;
+	width: auto;
+	height: auto;
+}
+header{
+	font-size:1rem;
+	padding-top:150px;
+	line-height: 30px;
+	width: 100%;
+	height:100vw;
+	
+	background: url('turmam27bmobile.jpg') no-repeat center center/cover;
+}
+/*#teste{
+	width:100%;
+	height:500px;
+	background:green;
+}*/
+
+
+.tsecao {
+    font-size: 1.7rem;
+   }
+
+/*MAPA*/
+.mapa{
+	width:auto;
+}
+#acessarmapa{
+	padding:30px;
+}
+/*.corpotodo{
+	padding-top:180px;
+	
+}*/
+
+/*ATRAÇÕES*/
+#atracoes{
+	padding:30px;
+}
+.hora{
+	width:130px;
+}
+#atracoes-container{
+	width: 90%;
+}
+
+/*BUFFET*/
+#buffet{
+	padding:30px;
+}
+#mural{
+	padding:30px;
+}
+
+/*HOMENAGEM*/
+#homenagem{
+	padding-bottom:2px;
+}
+#contem-homenagem{
+	width:95%;
+}
+#contem-homenagem p{
+	font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+/*COMISSÃO*/
+#comissao{
+	padding:30px;
+	width:100%;
+	height:350px;
+	background: black;
+	/*background: url('../image/comissaomobile.jpg') no-repeat center /*center/cover*/;
+}
+#comissao img{
+	width:100%;
+	border-radius: 15px;
+	padding-top:10px;
+}
+#comissao p{
+	font-size: 0.9rem;
+}
+.container-generico{
+	width:90%;
+}
+.container-generico p{
+	margin-bottom:2px;
+	margin:20px;
+}
+
+/*#comissao{
+	width:100%;
+	height:500px;
+	background: url('../image/comissao.jpg') no-repeat center center/cover;
+	color: #eee;
+	padding: 50px;
+	position: relative;
+	background-color:rgba(0,0,0,0.4);
+}*/
+#orgnames{
+	gap:30px;
+	margin-top:35vw;
+	font-size: 1rem;
+}	
+	
+/*RODAPÉ*/
+#tabela{
+	flex-direction: column;
+	width:100%;
+	gap:20px;
+}
+#footer{
+	padding:30px;
+}
+

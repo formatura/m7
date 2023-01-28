@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+@font-face{
+	font-family: 'Jasmine';
+	src: url('jasmineupc-4.ttf')
+}
+
+h1 {
+	font-family: 'Jasmine', serif;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/*a:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}*/
+
+.tsecao {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    /*padding-bottom: 50px;
+	padding-top: 20px;*/
+    letter-spacing: 2px;
+	margin-bottom: 15px;
+	font-family: 'Jasmine', serif;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* navbar */
+#navbar {
+    width: 100%;
+    background: #0C5652;
+    color: #eee;
+    height: 40px;
+    position: fixed;
+	font-size:0.9rem;
+}
+#navbar-container {
+    width: 80%;
+    /*height: 100%;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-items {
+    display: flex;
+    list-style: none;
+    /*text-transform: uppercase;*/
+}
+#navbar-items li {
+    padding: 10px;
+}
+.click:hover{
+	cursor: pointer;
+    opacity: 0.8;
+}
+
+
+
+/* HEADER */
+#brasao {
+	max-width:250px;
+	max-height:210px;
+	width: auto;
+	/*height: auto;*/
+}
+
+header {
+	/*display:flex;
+	font-size: 2.2rem;*/
+	height: 60vh;
+	background: url('turmam27b.jpg') no-repeat center center/cover;
+	padding: 25px;
+	/*Fonte*/
+	color: #0E3034;
+	text-align:center;
+	
+
+	/*Overlay
+    background-color: rgba(12,86,82,0.5);
+    background-blend-mode: color;*/
+}
+
+/*
+header {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background: url('image/turmam27.jpg') no-repeat center center/cover;
+
+    Overlay
+    background-color: rgba(12,86,82,0.5);
+    background-blend-mode: color;
+} */
+
+
+/*Seção mapa*/
+#acessarmapa{
+	width: 100%;
+    padding: 25px;
+
+	background-color: white;
+
+	/*font-size: 1.2rem;*/
+	color: #73501F;
+	
+}
+/*não consigo alinhar ao centro*/
+.mapa {
+	width: 40%;
+	display: flex;
+	gap:10px;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	
+	font-style: italic;
+	
+}
+.mapa:hover{
+	background-blend-mode: #73501F;
+	opacity:0.7;
+}
+
+#mapaicone{
+	width: 20vh;
+	
+}
+/*Seção mural*/
+#mural{
+	width:100%;
+	background: #FBFBF9;
+	color: black;
+	padding: 25px;
+	
+}
+
+
+
+/*Seção atrações musicais*/
+#atracoes {
+	display:column;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+    padding: 50px;
+	background: url('backatracao.jpg') no-repeat center center/cover;
+	
+	font-size: 1.2rem;
+	color: #eee;
+	
+	background-color: rgba(0,0,0,0.8);
+    background-blend-mode: color;
+}
+
+#atracoes-container{
+	width: 400px;
+	display:column;
+}
+.hatracoes{
+	display: flex;
+	gap: 24px;
+	padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+	color: #B6ACA8/*#D6CCC8*/;
+}
+/*CARROSSEL*/
+
+
+
+
+
+
+
+/*BUFFET*/
+#buffet{
+	width: 100%;
+	display: column;
+	justify-content: center;
+	align-items: center;
+    padding: 50px;
+	background: url('backbuffet.jpg') no-repeat center center/cover;
+	
+	font-size: 1.2rem;
+	color: #eee;
+	
+	background-color: rgba(0,0,0,0.85);
+    background-blend-mode: color;
+}
+#buffet-container{
+	width: 400px;
+}
+.hbuffet{
+	display: flex;
+	gap: 24px;
+	padding: 10px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+	color: #B6ACA8/*#D6CCC8*/;
+}
+
+#comissao{
+	width:100%;
+	height:500px;
+	background: url('comissao.jpg') no-repeat center center/cover;
+	color: #eee;
+	padding: 50px;
+	position: relative;
+	background-color:rgba(0,0,0,0.4);
+	text-align: center;
+}
+#organizadores{
+	width:100%;
+	height:50vw;
+	background: url('organizadores.jpg')no-repeat center center/cover;
+	color: #eee;
+	
+}
+#orgnames{
+	display: flex;
+	color: #979797;
+	gap:300px;
+	margin-top:42vw;
+	font-size: 1.5rem;
+}
+
+/*#homenagem{
+	width:100%;
+	padding: 30px;
+	background: black;
+}
+#contem-homenagem{
+	width:60%;
+	color: #eee;
+	text-align: center;
+}
+/*.alinharesquerda{
+	text-align: left;
+}*/
+#contem-homenagem p {
+	margin:10px;
+}
+
+#comissao img{
+	width: 0px;
+}
+
+.container-generico{
+	width: 700px;
+	position: absolute;
+	bottom: 0px;
+}
+.container-generico p{
+	
+	margin:40px;
+	color: #eee;
+}
+
+
+
+
+
+#footer{
+	
+	display: column;
+	align-items:center;
+	justify-content:center;
+	background: #222;
+    color: white;
+    padding: 30px;
+    text-align: center;
+	
+	
+	/*margin: auto;*/
+
+}
+.nove{
+	font-size: 0.9rem;
+	color: #eee;
+	margin-bottom:20px;
+	font-style: italic;
+}
+#tabela{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	width:auto;
+	gap: 30px;
+	align-items: center;
+	
+}
+
+.iconeinsta{
+	width: 3vh;
+}
+.insta{
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+.nome{
+	padding:10px;
+}
+.empresa{
+	display: column;
+	justify-content: center;
+	align-items: center;
+		
+}
+.fim p{
+	color: #B6ACA8;
+	font-size: 0.8rem;
+}
+.fim {
+	padding:30px;
+}
+
+
+.centralizar{
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+ 
+ 
+ 
+ /*PÁGINA MAPA*/
+ #pagmapa{
+	 width:100%;
+	 
+ }
+ #pagmapa img{
+	 width: 100%;
+ }
+
+
+/*PÁGINA MURAL*/
+.secmural{
+	font-size: 2.5rem;
+	text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+	letter-spacing: 2px;
+	color: #eee;
+	padding-top: 70px;
+	font-family: 'Jasmine', serif;
+}
+#backgroundmural{
+	background: url('backmurala.jpg');
+	background-color: rgba(0,0,0,0.3);
+    background-blend-mode: color;
+
+}
+#pagmural{
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 40px;
+	padding-top:25px;
+	gap: 30px;
+}
+
+.container-mural{
+	width:265px;
+	background: /*#0C5652*/#8D0022;
+	display: column;
+	font-size: 1.3rem;
+	text-align:center;
+	color: #eee;
+	
+	padding-bottom: 7px;
+}
+.container-mural p{
+	margin: 3px;
+}
+.container-mural img{
+	width: 257.5px;
+	height: 333.3px;
+	border:8px solid #8D0022/*#0C5652*/;
+	border-radius: 15px;
+}
+/*#pagmural {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
+}*/

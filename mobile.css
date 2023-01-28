@@ -108,7 +108,7 @@ header{
 }
 #comissao img{
 	width:100%;
-	border-radius: 15px;
+	border-radius: 14px;
 	padding-top:10px;
 }
 #comissao p{
@@ -120,6 +120,14 @@ header{
 .container-generico p{
 	margin-bottom:2px;
 	margin:20px;
+}
+#cominames{
+	display: flex;
+	/*color: red #545454*/
+	gap:2vh;
+	bottom:33%;
+	/*margin-top:none;*/
+	position: absolute;
 }
 
 /*#comissao{

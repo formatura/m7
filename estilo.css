@@ -366,8 +366,8 @@ header {
 }
 #backgroundmural{
 	background: url('backmurala.jpg');
-	background-color: rgba(5,10,46,0.4);
-    background-blend-mode: color;
+	background-color: #050A2E;
+   
 
 }
 #pagmural{

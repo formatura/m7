@@ -366,7 +366,7 @@ header {
 }
 #backgroundmural{
 	background: url('backmurala.jpg');
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(5,10,46,0.4);
     background-blend-mode: color;
 
 }

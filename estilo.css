@@ -406,6 +406,16 @@ header {
 	border:8px solid #8D0022/*#0C5652*/;
 	border-radius: 15px;
 }
+#leaomural img{
+	width: 265px;
+	height: auto;
+	
+}
+#leaomural{
+	width:265px;
+	background: #14193D;
+	text-align:center;
+}
 /*#pagmural {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

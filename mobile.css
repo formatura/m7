@@ -128,7 +128,7 @@ header{
 	display: flex;
 	/*color: red #545454*/
 	gap:2vw;
-	bottom:2%;
+	bottom:130px;
 	/*margin-top:none;*/
 	position: absolute;
 }

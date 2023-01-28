@@ -117,7 +117,7 @@ header{
 	font-size: 0.9rem;
 }
 .container-generico{
-	width:90%;
+	width:100%;
 }
 .container-generico p{
 	margin-bottom:2px;
@@ -126,8 +126,8 @@ header{
 #cominames{
 	display: flex;
 	/*color: red #545454*/
-	gap:2vh;
-	bottom:33%;
+	gap:2vw;
+	bottom:2%;
 	/*margin-top:none;*/
 	position: absolute;
 }

@@ -226,6 +226,14 @@ header {
 	background-color:rgba(0,0,0,0.4);
 	text-align: center;
 }
+#cominames{
+	display: flex;
+	color: #545454;
+	gap:150px;
+	margin-top:17vw;
+	font-size: 1rem;
+}
+
 #organizadores{
 	width:100%;
 	height:50vw;

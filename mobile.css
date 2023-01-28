@@ -2,7 +2,7 @@
 	background-color: #0C5652;
 }
 #navbar {
-    height: 150px;
+    height: 130px;
 	background-color: rgba(12,86,82,0.6);
 }
 #navbar-container {
@@ -32,7 +32,7 @@
 }
 header{
 	font-size:1rem;
-	padding-top:150px;
+	padding-top:130px;
 	line-height: 30px;
 	width: 100%;
 	height:100vw;

@@ -1,0 +1,35 @@
+
+/*RODAPÉ*/
+#pagmural{
+	grid-template-columns: repeat(2, 1fr);
+	gap: 3vh;
+	padding: 25px;
+}
+.container-mural img{
+	width: 154.5px;
+	height: 200px;
+	/*border:8px solid #0C5652;
+	border-radius: 2px;*/
+}
+.container-mural{
+	width:162px;
+	/*background: #0C5652;
+	display: column;
+	font-size: 1.3rem;
+	text-align:center;
+	color: #eee;
+	padding-bottom: 7px;*/
+}
+.secmural{
+	font-size: 1.7rem;
+}
+
+#tabela{
+	flex-direction: column;
+	width:100%;
+	gap:20px;
+}
+#footer{
+	padding:30px;
+}
+

@@ -85,6 +85,7 @@ header {
 	height: 60vh;
 	background: url('turmam27b.jpg') no-repeat center center/cover;
 	padding: 25px;
+	padding-top:40px;
 	/*Fonte*/
 	color: #0E3034;
 	text-align:center;

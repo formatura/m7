@@ -8,6 +8,7 @@
 #navbar-container {
     flex-direction: column;
     padding: 15px 0;
+	padding-top:1px;
 }
 #navbar-container h1{
 	font-size:0px;
